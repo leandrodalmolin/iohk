@@ -1,4 +1,7 @@
 export * from './button/button'
+export * from './card/card'
+export * from './card/card.types'
 export * from './external-link-icon/external-link-icon'
+export * from './featured-cards/featured-cards'
 export * from './hero/hero'
 export * from './wrapper/wrapper'
