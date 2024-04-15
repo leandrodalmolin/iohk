@@ -9,3 +9,7 @@ html {
 :focus-visible {
   @apply outline outline-2 outline-offset-2 outline-black;
 }
+
+::selection {
+  @apply bg-lavender-100;
+}
