@@ -25,6 +25,20 @@ const config: Config = {
       boxShadow: {
         default: '0px 4px 25px 0px rgba(0, 0, 0, 0.15)',
       },
+      animation: {
+        'fade-in': 'fadeIn .8s ease-in',
+        'fade-in-to-left': 'fadeInToLeft 1s ease-out',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        fadeInToLeft: {
+          '0%': { opacity: '0', transform: 'translateX(20%)' },
+          '100%': { opacity: '1', transform: 'translateX(0)' },
+        },
+      },
     },
   },
   plugins: [],
