@@ -44,6 +44,7 @@ Live: [https://iohk-leandro-dm.vercel.app/](https://iohk-leandro-dm.vercel.app/)
 - Polymorphic components
   - Button with "asChild" prop
   - Wrapper with "as" prop
+- 100% Lighthouse score on performance, accessibility, best practices and SEO
 
 ## Development Tools
 
